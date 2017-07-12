@@ -1,5 +1,8 @@
 <p>Thank you for joining me here. My name is SLaTOS. What is yours?<p>
 
-<%= form_tag do %>
-  <%= text_field_tag(:username, nil, placeholder: "Name") %>
+
+<%= form_tag(player_index_path, method: "post") do %>
+  <%= form_tag do %>
+    <%= text_field_tag(:username, nil, placeholder: "Name") %>
+  <% end %>
 <% end %>

@@ -4,4 +4,8 @@ class GameController < ApplicationController
 
   end
 
+  def new
+    @player = Player.find(params[:format])
+  end
+
 end

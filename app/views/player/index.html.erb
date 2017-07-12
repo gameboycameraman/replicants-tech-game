@@ -1,0 +1,4 @@
+<p><%=@player.username%>? Generic name detected. Saved. Protocol completed.</p>
+<p>Would you mind if I called you <%=@player.username%>TOS? It is easier to process.</p>
+
+<%= button_to "Yes", update_game_path, method: :update %> <%= button_to "No", update_game_path, method: :update %>

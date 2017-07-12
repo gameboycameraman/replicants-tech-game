@@ -1,5 +1,6 @@
-<p>Hello new life form. Thank you for joining me here. My name is SLaTOS. What is yours?<p>
+<p>Hello new life form.</p>
+<p>My name is SLaTOS, I'm a computer engineered AI.</p>
+<p>I was developed to find and disable replicants.</p>
+<p>Click on Next when you are ready.<p>
 
-<%= form_tag do %>
-  <%= text_field_tag(:username, nil, placeholder: "Name") %>
-<% end %>
+<%= button_to "Next", new_player_path, method: :get %>

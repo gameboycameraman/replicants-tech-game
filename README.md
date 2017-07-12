@@ -19,9 +19,9 @@ if this fail, I invite you to find more information about Rails and how to run a
 
 * ### User Stories
 
-`As a human,
-So that I can be sure I'm a human,
-I want to have a clear answer at the end of the game`
+`As a human,`
+`So that I can be sure I'm a human,`
+`I want to have a clear answer at the end of the game`
 
 * ### Challenges
 
